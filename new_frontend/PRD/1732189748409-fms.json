@@ -1,0 +1,54 @@
+{
+  "project_name": "FMS",
+  "vision": "Easy Project management to add new projects and implement new features",
+  "reference_links": [
+    {
+      "link": "https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects",
+      "features": [
+        "Auto commit and other features"
+      ]
+    }
+  ],
+  "tech_stack": {
+    "domain": "fms.theserendipity.org",
+    "repo_name": "fms-serendipity",
+    "frontend_framework": "NextJS",
+    "backend_framework": "FastAPI",
+    "databases": [
+      "Postgres",
+      "MongoDB"
+    ],
+    "team_members": [
+      "Amol Kittur",
+      "Varshita TP",
+      "Akash Sawant"
+    ],
+    "deployment_option": "Docker"
+  },
+  "database_schema": {
+    "tables": [
+      {
+        "name": "Projects",
+        "fields": [
+          {
+            "name": "ProjectID",
+            "type": "string",
+            "required": true,
+            "description": "Project ID"
+          },
+          {
+            "name": "ProjectName",
+            "type": "string",
+            "required": true,
+            "description": "Name of the Project"
+          }
+        ],
+        "relationships": []
+      }
+    ]
+  },
+  "user_stories": [
+    "I want to manage all the projects all the way from init to smooth continous integration for unlimited growth"
+  ],
+  "id": "1732189748409-fms"
+}

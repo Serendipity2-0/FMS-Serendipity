@@ -1,0 +1,143 @@
+{
+  "prdId": "1732189748409-fms",
+  "projectName": "FMS",
+  "lastUpdated": "2024-11-21T14:00:58.473Z",
+  "stages": [
+    {
+      "id": "initial-setup",
+      "title": "Initial Setup",
+      "description": "Set up the project repository and development environment",
+      "status": "completed",
+      "subTasks": [
+        {
+          "id": "create-repo",
+          "title": "Create GitHub Repository: fms-serendipity",
+          "description": "Create a new repository on GitHub with the specified name",
+          "completed": true
+        },
+        {
+          "id": "clone-repo",
+          "title": "Clone Repository",
+          "description": "Clone the repository to your local development environment",
+          "completed": true
+        },
+        {
+          "id": "setup-readme",
+          "title": "Initialize README",
+          "description": "Create and populate README.md with project information",
+          "completed": true
+        }
+      ]
+    },
+    {
+      "id": "frontend-setup",
+      "title": "Frontend Setup",
+      "description": "Set up NextJS project",
+      "status": "in_progress",
+      "subTasks": [
+        {
+          "id": "create-frontend",
+          "title": "Initialize NextJS Project",
+          "description": "Create a new frontend project with the specified framework",
+          "completed": true
+        },
+        {
+          "id": "setup-dependencies",
+          "title": "Install Dependencies",
+          "description": "Install and configure required dependencies",
+          "completed": false
+        },
+        {
+          "id": "setup-structure",
+          "title": "Project Structure",
+          "description": "Set up project directory structure and base configuration",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "backend-setup",
+      "title": "Backend Setup",
+      "description": "Set up FastAPI project",
+      "status": "not_started",
+      "subTasks": [
+        {
+          "id": "create-backend",
+          "title": "Initialize FastAPI Project",
+          "description": "Create a new backend project with the specified framework",
+          "completed": false
+        },
+        {
+          "id": "setup-api",
+          "title": "Setup API Structure",
+          "description": "Create basic API structure and endpoints",
+          "completed": false
+        },
+        {
+          "id": "setup-middleware",
+          "title": "Configure Middleware",
+          "description": "Set up necessary middleware and configurations",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "database-setup",
+      "title": "Database Setup",
+      "description": "Set up Postgres and MongoDB",
+      "status": "not_started",
+      "subTasks": [
+        {
+          "id": "setup-postgres",
+          "title": "Setup Postgres",
+          "description": "Initialize and configure Postgres database",
+          "completed": false
+        },
+        {
+          "id": "postgres-schema",
+          "title": "Create Postgres Schema",
+          "description": "Create and configure database schema",
+          "completed": false
+        },
+        {
+          "id": "setup-mongodb",
+          "title": "Setup MongoDB",
+          "description": "Initialize and configure MongoDB database",
+          "completed": false
+        },
+        {
+          "id": "mongodb-schema",
+          "title": "Create MongoDB Schema",
+          "description": "Create and configure database schema",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "deployment-setup",
+      "title": "Deployment Setup",
+      "description": "Configure Docker deployment",
+      "status": "not_started",
+      "subTasks": [
+        {
+          "id": "create-dockerfile",
+          "title": "Create Dockerfile",
+          "description": "Create and configure Dockerfile",
+          "completed": false
+        },
+        {
+          "id": "setup-compose",
+          "title": "Setup Docker Compose",
+          "description": "Create and configure docker-compose.yml",
+          "completed": false
+        },
+        {
+          "id": "setup-cicd",
+          "title": "Configure CI/CD",
+          "description": "Set up continuous integration and deployment pipeline",
+          "completed": false
+        }
+      ]
+    }
+  ]
+}
