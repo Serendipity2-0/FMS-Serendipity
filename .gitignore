@@ -77,3 +77,5 @@ Icon?
 # Logs
 *.log
 logs/
+
+actions-runner
